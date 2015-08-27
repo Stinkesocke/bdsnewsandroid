@@ -58,7 +58,7 @@
 									
 					$.ajax({
 					type: "GET",
-					url: "http://app.bytecity.de/article_list.php?id="+ mid +"",
+					url: "http://app.bytecity.de/bds/article_list.php?id="+ mid +"",
 					dataType: "html",
 					crossDomain: true,
 					beforeSend: function() { $( ".loading_spinner_all" ).show(); },
@@ -93,7 +93,7 @@
 								
 								$.ajax({
 									type: "GET",
-									url: "http://app.bytecity.de/article_list_add.php?id="+ mid +"&limit="+ limit +"",									
+									url: "http://app.bytecity.de/bds/article_list_add.php?id="+ mid +"&limit="+ limit +"",									
 									dataType: "html",
 									crossDomain: true,
 									beforeSend: function() { $( ".loading_spinner_all" ).show(); },			
