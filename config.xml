@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "de.bytecity.stahlhandel.app"
 		versionCode="1"
-		version   = "1.0.2">
+		version   = "1.0.3">
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
 		<author href="http://www.bytecity.de" email="post@bytecity.eu">Bytecity UG</author>
@@ -28,7 +28,7 @@
 		<preference name="HideKeyboardFormAccessoryBar" value="false" />
 		<preference name="SuppressesIncrementalRendering" value="false" />
 		<preference name="android-minSdkVersion" value="7" />
-		<preference name="android-maxSdkVersion" value="19" />
+		<preference name="android-maxSdkVersion" value="22" />
 		<preference name="android-installLocation" value="auto" />
 		<preference name="SplashScreenDelay" value="3000" />
 		<preference name="ErrorUrl" value=""/>
