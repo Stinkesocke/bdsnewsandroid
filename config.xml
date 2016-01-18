@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "de.bytecity.stahlhandel.app"
 		versionCode="3"
-		version   = "3.0.1">
+		version   = "3.0.2">
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
 		<author href="http://www.stahlhandel.com/" email="info-bds@stahlhandel.com">BDS AG</author>
