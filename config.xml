@@ -2,7 +2,7 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "de.bytecity.stahlhandel.app"
-		versionCode="3"
+		versionCode="303"
 		version   = "3.0.3">
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
