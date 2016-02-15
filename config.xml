@@ -7,7 +7,7 @@
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
 		<author href="http://www.stahlhandel.com/" email="info-bds@stahlhandel.com">BDS AG</author>
-		<preference name="phonegap-version" value="3.6.3" />
+		<preference name="phonegap-version" value="cli-6.0.0" />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="true" />
 		<preference name="target-device" value="universal" />
