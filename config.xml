@@ -2,8 +2,8 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "de.bytecity.stahlhandel.app"
-		versionCode="304"
-		version   = "3.0.4">
+		versionCode="305"
+		version   = "3.0.5">
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
 		<author href="http://www.stahlhandel.com/" email="info-bds@stahlhandel.com">BDS AG</author>
@@ -43,6 +43,13 @@
 		<gap:plugin name="org.apache.cordova.inappbrowser"  />
 		<gap:plugin name="org.apache.cordova.network-information"  />
 		<gap:plugin name="org.apache.cordova.splashscreen"  />
+		<feature name="http://api.phonegap.com/1.0/network"/>
+		<feature name="InAppBrowser">
+			<param name="android-package" value="org.apache.cordova.InAppBrowser"/>
+		</feature>
+		<feature name="NetworkStatus">
+			<param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+		</feature>
 		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
 		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
