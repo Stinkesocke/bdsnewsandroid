@@ -2,8 +2,8 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "de.bytecity.stahlhandel.app"
-		versionCode="303"
-		version   = "3.0.3">
+		versionCode="304"
+		version   = "3.0.4">
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
 		<author href="http://www.stahlhandel.com/" email="info-bds@stahlhandel.com">BDS AG</author>
