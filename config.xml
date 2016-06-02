@@ -2,8 +2,8 @@
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "de.bytecity.stahlhandel.app"
-		versionCode="305"
-		version   = "3.0.5">
+		versionCode="306"
+		version   = "3.0.6">
 		<name>BDS News</name>
 		<description>Aktuelle News des BDS</description>
 		<author href="http://www.stahlhandel.com/" email="info-bds@stahlhandel.com">BDS AG</author>
@@ -50,6 +50,7 @@
 		<feature name="NetworkStatus">
 			<param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
 		</feature>
+		<uses-permission android:name="android.permission.INTERNET" /> 
 		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
 		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
@@ -59,5 +60,7 @@
 		<gap:splash src="res/screen/android/screen-mdpi-portrait.jpg" gap:platform="android" gap:density="mdpi" />
 		<gap:splash src="res/screen/android/screen-hdpi-portrait.jpg" gap:platform="android" gap:density="hdpi" />
 		<gap:splash src="res/screen/android/screen-xhdpi-portrait.jpg" gap:platform="android" gap:density="xhdpi" />
-		<access origin="*"/>
+		<allow-navigation href="*" />
+		allow-intent href="*" />
+		<access origin="*" />
 	</widget>
