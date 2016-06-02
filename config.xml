@@ -50,7 +50,7 @@
 		<feature name="NetworkStatus">
 			<param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
 		</feature>
-		<uses-permission android:name="android.permission.INTERNET" /> 
+		<uses-permission name="android.permission.INTERNET" /> 
 		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
 		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
